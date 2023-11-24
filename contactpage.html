@@ -1,0 +1,185 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="contactpage.css">
+    <script src="contact.js"></script>
+</head>
+
+<body>
+        <header>HEALTHONUS</header>
+
+        <div class="topnav">
+        <ul>
+            <li> <a href="#"> HOME </a> </li>
+            <li> <a href="#">SERVICES</a> </li>
+            <li> <a href="careerspage.html">CAREERS</a> </li>
+            <li> <a class="active">CONTACT</a> </li>
+        </ul>
+        <div class="image">
+            <img src="./assets/blog-icon.png">
+        </div>
+    </div>
+    
+    <form id="myForm">
+        <div class="middlecontent">
+            <span id="error-message"></span>
+            <div class="left-sidearea">
+                <div class="content-name">Name</div>
+                <div class="optional-div"><input type="text" id="name"></div>
+                <span class="required">*</span>
+                <span id="name-validation" class="error-message"></span>
+            </div>
+            <div class="left-sidearea">
+                <div class="content-name">My Email Address:</div>
+                <div class="optional-div"><input type="text" id="email"></div>
+                <span class="required">*</span>
+                <!-- <span id="name-error" class="error-message"></span> -->
+                <span id="email-validation" class="error-message"> </span>
+            </div>
+            <div class="left-sidearea">
+                <div class="content-name">My Telephone Number:</div>
+                <div class="optional-div"><input type="text" id="telephone"></div>
+
+            </div>
+            <div class="left-sidearea">
+                <div class="content-name">My Organization Name:</div>
+                <div class="optional-div"><input type="text" id="organization"></div>
+                <span class="required">*</span>
+                <span id="organization-validation" class="error-message"></span>
+            </div>
+            <div class="left-sidearea">
+                <div class="content-name">My City:</div>
+                <div class="optional-div"><input type="text" id="city"></div>
+            </div>
+            <div class="left-sidearea">
+                <div class="content-name">My State or Province:</div>
+                <div class="optional-div"><select onchange=updatePromoCode() state="text" id="state">
+                        <option value="ANDHRA">ANDHRA</option>
+                        <option value="TELANGANA">TELANGANA</option>
+                        <option value="KERALA">KERALA</option>
+                        <option value="GOA">GOA</option>
+                    </select></div>
+            </div>
+            <div class="left-sidearea">
+                <div class="content-name">Please Contact Me By:</div>
+                <div class="radio-button">
+                    <div>
+                        <input type="radio" id="contact1" name="contact">
+                        <label for="contact1">Email</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="contact2" name="contact">
+                        <label for="contact2">Phone</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="contact3" name="contact">
+                        <label for="contact3">Both</label>
+                    </div>
+                </div>
+            </div>
+            <div class="left-sidearea">
+                <div class="content-name">Gender:</div>
+                <div class="radio-option">
+                    <div>
+                        <input type="radio" id="male" name="gender" value="male" onchange="identifyGender()">
+                        <label for="male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="female" name="gender" value="female" onchange="identifyGender()">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+            </div>
+            <!-- <span id="genderMessage"></span> -->
+            
+            <div class="left-sidearea">
+                <div class="content-name">Promotion Code:</div>
+                <div class="optional-div"><input type="text" id="promotion"></div>
+            </div>
+            <div class="information">
+                <p>Optional Information:</p>
+                    <i>This information is optional but it helps us to serve you better.</i>
+            </div>
+            <div class="left-sidearea">
+                <div class="content-name">My Website Adress is <Code></Code>:</div>
+                <div class="optional-div"><input type="text" id="adress"></div>
+            </div>
+            <div class="enquiry">
+                <p>Tell Us More About Your Organization:</p>
+                <textarea id="review" name="w3review" rows="8" cols="50"></textarea>
+            </div>
+            <div class="feedback">
+                <p>What i'd really like to know is:</p>
+                <textarea id="greview" name="w3review" rows="8" cols="50"></textarea>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btwn" onclick="validateForm(event)">Send message</button>
+
+            <button class="btwn" type="reset">ClearForm</button>
+        </div>
+    </form>
+
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+<!-- 
+            <div class="naming1">My Email Address: <input type="text" class="bittuu1"></div>
+            <div class="naming2">My Telephone Number: <input type="text" class="bittuu2"></div>
+            <div class="naming3">My Organization Name: <input type="text" class="bittuu3"></div>
+            <div class="naming4">My City:<input type="text" class="bittuu4"></div>
+            <div class="naming5">My state or Provience:
+
+                <select state="text" class="bittuu5">
+                    <option value="andhra">Andhra</option>
+                    <option value="telangana">Telangana</option>
+                    <option value="kerala">Kerala</option>
+                    <option value="goa">Goa</option>
+                </select>
+            </div>
+
+            <div class="naming6">
+                <h1>Please contact Me By:</h1>
+                <div class="styling">
+                    <div>
+                        <input type="radio" id="contact1" name="contact" value="30">
+                        <label for="contact1">Email</label>
+                    </div>
+                    <div><input type="radio" id="contact2" name="contact" value="60">
+                        <label for="contact2">Phone</label>
+                    </div>
+                    <div><input type="radio" id="contact3" name="contact" value="100">
+                        <label for="contact3">Both</label>
+                    </div>
+                </div>
+            </div>
+            <div class="naming7">Promotion Code:<input type="text" class="bittuu7"></div>
+            <div class="naming8">
+                Optional Information
+                <p>This information is optional but it helps us to serve you better</p>
+            </div>
+            <div class="naming9">My Website Adress is: <input type="text" class="bittuu9"></div>
+            <div class="naming10">
+                <p>Tell Us More About Your Organization:</p>
+                <textarea id="review" name="w3review" rows="10" cols="55"></textarea>
+            </div>
+            <div class="naming11">
+                <p>What i'd really like to know is:</p>
+                <textarea id="review" name="w3review" rows="10" cols="55"></textarea>
+            </div>
+
+    </form>
+    <div class="data">
+
+        <button>Send message</button>
+
+        <button type="reset">Clear</button>
+    </div>
+    </div> -->

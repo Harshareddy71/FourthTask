@@ -1,0 +1,175 @@
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+  }
+
+  header {
+      background-color: #3796C9;
+      letter-spacing: 0.03em;
+      font-size: 35px;
+      font-weight: 400;
+      padding: 25px 0px 28px 30px;
+      font-family: Segoe UI;
+      color: rgb(233, 236, 238);
+  }
+
+  .image {
+      padding: 10px;
+      width: 30px;
+      height: 22px;
+
+  }
+
+  .topnav {
+      overflow: hidden;
+      background-color: #333;
+      height: 30px;
+      display: flex;
+      padding-left: 15px;
+      align-items: center;
+      justify-content: space-between;
+      font-family: calibri;
+      font-size: 16px;
+      font-weight: 600;
+  }
+
+  ul {
+      list-style-type: none;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+  }
+
+  li a {
+      color: #fff;
+      display: flex;
+      text-align: center;
+      text-align: center;
+      padding: 10px 20px;
+      text-decoration: none;
+  }
+
+  .active {
+      background-color: orange;
+      border-left: white 6px solid;
+      border-radius: 4px;
+      color: #333;
+  }
+
+  ul :hover {
+      background-color: orange;
+      border-left: white 4px solid;
+      color: #333;
+  }
+
+  b {
+      padding: 10px;
+  }
+
+  h3 {
+      padding-left: 70px;
+      font-weight: lighter;
+  }
+
+  p {
+      padding-left: 70px;
+      font-size: 14px;
+      margin-bottom: 50px !important;
+  }
+
+  input {
+      padding: 4px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+  }
+
+  .mainnn {
+      width: 55%;
+  }
+
+  .main-container {
+      padding-left: 80px;
+      display: flex;
+      width: 56%;
+  }
+
+  .name-content {
+      width: 35%;
+  }
+
+ 
+  .btn {
+      margin-left: 286px;
+      height: 30px;
+      font-size: 16px;
+      padding: 0px 35px 0px 10px;
+  }
+  .custom-file-upload{
+    margin-left: 8px;
+    padding: 6px 20px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+  
+  /* .custom-file-upload {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 6px 20px;
+    font-size: 12px;
+    font-weight: lighter;
+    color: black;
+    background-color: #f4f4f4;
+    border: 1px solid black;
+    cursor: pointer;
+  } */
+  
+  /* .custom-file-upload:hover {
+    background-color: #cfcbcb;
+  }
+   */
+
+
+  /* .name-content{
+display: flex;
+}
+.bittu{
+ margin-left: 142px;
+}
+
+.name-content1{
+    display: flex;
+}
+.bittu1{
+    margin-left: 144px;
+} */
+
+  /* .bittu2{
+    margin-left: 92px;
+}
+.bittu3{
+    margin-left: 70px;
+}
+.name-content2{
+    display: flex;
+}
+.name-content3{
+    display: flex;
+}
+.Browse_btn {
+    height: 28px;
+    margin-left: 10px;
+    width: 80px;
+}
+.btn{
+        margin-left: 186px;
+        width: 100px;
+        height: 25px;
+        padding: 0px 39px 0px 0px;
+} */

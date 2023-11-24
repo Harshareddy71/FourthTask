@@ -1,0 +1,269 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #3796C9;
+    letter-spacing: 0.03em;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 25px 0px 28px 30px;
+    font-family: Segoe UI;
+    color: rgb(233, 236, 238);
+}
+
+.image {
+    padding: 10px;
+    width: 30px;
+    height: 22px;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    height: 30px;
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+}
+
+ul :hover {
+    background-color: orange;
+    color: #333;
+    border-left: white 4px solid;
+}
+
+li a {
+    color: #fff;
+    display: flex;
+    text-align: center;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: orange;
+    border-radius: 4px;
+    border-left: white 6px solid;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    background-color: #333;
+}
+
+.middlecontent {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+input {
+    padding: 4px;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+    border-top: grey 2px solid;
+    border-left: grey 2px solid;
+    border-right: none;
+    border-bottom: none;
+}
+
+.left-sidearea {
+    padding-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    width: 45%;
+    align-items: center;
+}
+
+.content-name {
+    width: 25%;
+}
+
+.radio-option{
+    margin-left: 8px;
+}
+.radio-button{
+    margin-left: 8px;
+}
+
+.information{
+    padding-left: 80px;
+    margin-top: 10px;
+    width: 45%;
+}
+.enquiry{
+    padding-left: 80px;
+    margin-top: 10px;
+}
+.feedback{
+    padding-left: 80px;
+    margin-top: 10px;
+}
+.btn {
+    padding-left: 90px;
+    margin-top: 8px;
+}
+.btwn{
+    padding: 8px 15px;
+    background-color: #D4D0C8;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+}
+textarea{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.required{
+    color: red;
+    padding-top: 5px;
+}
+.information p{
+font-size: 16px;
+}
+#error-message{
+    color: red;
+}
+#name-validation{
+    color: red;
+}
+#email-validation{
+    color: red;
+}
+#organization-validation{
+    color: red;
+}
+select{
+    width: 170%;
+    height: 24px;
+}
+
+
+
+/* select{
+    margin-bottom: 10px;
+    margin-left: 36px;
+    box-shadow: #333;
+    width: 180px;
+    height: 20px;
+}
+.naming5{
+    display: flex;
+    margin-top: 15px;
+}
+.naming6{
+    display: flex;
+    align-items: center;
+}
+.styling{
+    margin-top: 12px;
+    margin-left: 30px;
+}
+.bittuu{
+    margin-left: 120px;
+}
+.bittuu1{
+    margin-left: 60px;
+}
+.bittuu2{
+    margin-left: 26px;
+}
+.bittuu3{
+    margin-left: 22px;
+}
+.bittuu4{
+    margin-left: 137px;
+}
+.bittuu7{
+    margin-left: 75px;
+    margin-top: 2px;
+}
+.bittuu9{
+    margin-left: 30px;
+}
+h1{
+    font-size: 16px;
+    font-weight: lighter;
+} */
+
+
+
+/* .email {
+    padding-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    width: 45%;
+}
+
+.telephone {
+    padding-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    width: 45%;
+}
+
+.organization {
+    padding-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    width: 45%;
+}
+
+.city {
+    padding-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    width: 45%;
+}
+.state {
+    padding-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    width: 45%;
+}
+.gender{
+    padding-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    width: 45%;
+    align-items: center;
+}
+.promotion{
+    padding-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    width: 45%;
+}
+.enquiry{
+    padding-left: 80px;
+    margin-top: 25px;
+    display: flex;
+    width: 45%;
+    align-items: center;
+}
+.adress{
+    padding-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    width: 45%;
+} */
